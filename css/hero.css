@@ -1,0 +1,80 @@
+.hero {
+    background-image: url("../img/sla.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+nav {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+}
+
+nav.logo {
+    flex: 1;
+}
+
+nav.ul {
+    flex:4;
+}
+
+ul.navigation {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+ul.navigation li {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: larger;
+}
+
+ul.navigation li span {
+    margin-right: 5px;
+}
+
+button.action {
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: large;
+    color: white;
+    margin: 20px;
+}
+
+#bookingButton {
+    background-color: rgba(0,0,0,0.55);
+    border: 1px solid black;
+}
+
+#menuButton {
+    background-color: rgba(255,255,255,0.55);
+    border: 1px solid white;
+}
+
+hr {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 6rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div.buttons {
+    text-align: center;
+}
